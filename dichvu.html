@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dịch vụ</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body style="background-color: antiquewhite;">
+<ul class="one">
+        <li>
+            <h2 class="logo">
+            <img src="./GSlogo.jpg" style="height: 110px; width: 150px;">
+            </h2>
+            <li><a class="trangchu" href="trangchu.html" title="Trang chủ">TRANG CHỦ</a></li>
+            
+            <ul class="dv clearfix" >
+            <li>
+                <a class="dichvu" href="dichvu.html"title="Dịch vụ">DỊCH VỤ</a>
+                <ul>
+                    <li><a class="them" href="./themsanpham.html"title="Thêm sản phẩm">THÊM SP</a></li>
+                    <li><a class="xoa" href="./xoasanpham.html"title="Xóa sản phẩm">XÓA SP</a></li>
+                </ul>
+            </li>
+            </ul>
+            <li><a class="login" href="./login.html"title="Đăng nhập">ĐĂNG NHẬP</a></li>
+            <li><a class="register" href="./register.html"title="Đăng kí">ĐĂNG KÍ</a></li>
+            <li><a class="danhgia" href="./danhgia.html"title="Đánh giá">ĐÁNH GIÁ</a></li>
+        </li>
+</ul>
+    <header>
+        <nav>
+            <div class="content-nav">
+                <form>
+                    <input type="text" name="search" placeholder="Tìm kiếm..." />
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+            </div>          
+            <!-- The Modal -->
+            <button id="cart">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>Giỏ Hàng</button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cart-row">
+                            <br><span class="cart-item cart-header cart-column">Sản Phẩm</span></br>
+                            <br><span class="cart-price cart-header cart-column">Giá</span></br>
+                            <br><span class="cart-quantity cart-header cart-column">Số Lượng</span></br>
+                        </div>
+                        <div class="cart-items">
+
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                            <span class="cart-total-price">0VNĐ</span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- content -->
+    <section class="wrapper">
+        <div class="products">
+            <ul>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd1"
+                            src="hiflex.jpeg"
+                            alt="">
+                    </div>
+                    <div class="conten-product">
+                        <h3 class="content-product-h3">Bảng hiệu hộp đèn Hiflex</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">2.000.000 VNĐ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd2"
+                            src="inox.png"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Bảng hiệu inox </h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">4.299.000 VNĐ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd3"
+                            src="mica.jpeg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Bảng hiệu chữ nổi mica</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">2.599.000 VNĐ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product no-margin">
+                    <div class="img-product">
+                        <img class="img-prd4"
+                            src="inoxx.jpeg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Bảng hiệu inox đơn</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">700.000đ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd5"
+                            src="inlogo.jpeg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Thiết kế logo</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">2.199.000 VNĐ ~ 3.566.000 VNĐ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd6"
+                            src="thiepmoi.jpeg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Thiết kế thiệp mời</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">3.000 VNĐ ~ 5.000 VNĐ / tấm</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product">
+                    <div class="img-product">
+                        <img class="img-prd7"
+                            src="tshirt.jpeg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3"> In áo theo yêu cầu</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">200.000 VNĐ ~ 220.000.000 VNĐ</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-product no-margin">
+                    <div class="img-product">
+                        <img class="img-prd8"
+                            src="poster.jpeg"
+                            alt="">
+                    </div>
+                    <div class="content-product">
+                        <h3 class="content-product-h3">Thiết kế poster lấy liền</h3>
+                        <div class="content-product-deltals">
+                            <div class="price">
+                                <span class="money">200.000 VNĐ ~ 500.000 VNĐ (Tuỳ vào kích cỡ)</span>
+                            </div>
+                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+<!-- footer -->
+<footer>
+    <div class="footer-item">
+        <div class="img-footer">
+            <img src="img/logo.png" alt="" />
+        </div>
+        <div class="social-footer">
+            <li><a target="_blank" href="https://www.facebook.com">Truy cập để được tư vấn
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a></li>
+
+        </div>
+    
+</footer>
+</body>
+</html>
+
+
+    
+
+            <ul class="dv clearfix">
+            <li>
+                <a class="dichvu" href="dichvu.html"title="Dịch vụ">DỊCH VỤ</a>
+                <ul>
+                    <li><a class="them" href="./themsanpham.html"title="Thêm sản phẩm">THÊM SP</a></li>
+                    <li><a class="xoa" href="./xoasanpham.html"title="Xóa sản phẩm">XÓA SP</a></li>
+                </ul>
+            </li>
+            </ul>

@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel=\'stylesheet prefetch\' href=\'https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css\'>
+    <title>Trang đánh giá sản phẩm</title>
+</head>
+<body style="background-image: url(./image.jpeg); background-size: cover; background-position: center;">
+    <ul class="menu">
+        <ul>
+            <h2 class="logo">
+            <img src="./GSlogo.jpg" style="height: 110px; width: 150px;">
+            </h2>
+             <li><a href="trangchu.html" title="Trang chủ">TRANG CHỦ</a></li>
+             <li><a href="dichvu.html"title="Dịch vụ">DỊCH VỤ</a></li>
+            <li><a class="login" href="./login.html"title="Đăng nhập">ĐĂNG NHẬP</a></li>
+            <li><a class="register" href="./register.html"title="Đăng kí">ĐĂNG KÍ</a></li>
+            <li><a class="danhgia" href="./danhgia.html"title="Đánh giá">ĐÁNH GIÁ</a></li>
+        </ul>
+        <div class="content">
+            <h1 style="font-size: 35px;">Together we can make a difference! </h1>
+        </div>       
+</ul>
+    
+    <!-- modal danhgia  -->
+        <div class="modal modal-login">
+            <h3 class="modal-head">
+                Đánh giá chất lượng sản phẩm
+            </h3>
+   
+            <a href="./trangchu.html" class="btn-close">
+                X
+            </a>
+    
+            <div>
+                <input type="email" class="modal-input modal-input-name" placeholder="Email của bạn">
+            </div>
+    
+            <div>
+                <input required type="ykien" class="modal-input modal-input-pass" placeholder="Ý kiến">
+            </div>
+
+            <div>
+                <button class="modal-btn">Gửi</button>               
+            </div>
+        
+        
+            <div class="modal-stars">
+                <div class="stars">
+                    <form action="">
+                        <input class="star star-5" id="star-5" type="radio" name="star"/>
+                        <label class="star star-5" for="star-5"></label>
+                        <input class="star star-4" id="star-4" type="radio" name="star"/>
+                        <label class="star star-4" for="star-4"></label>
+                        <input class="star star-3" id="star-3" type="radio" name="star"/>
+                        <label class="star star-3" for="star-3"></label>
+                        <input class="star star-2" id="star-2" type="radio" name="star"/>
+                        <label class="star star-2" for="star-2"></label>
+                        <input class="star star-1" id="star-1" type="radio" name="star"/>
+                        <label class="star star-1" for="star-1"></label>
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+
+
